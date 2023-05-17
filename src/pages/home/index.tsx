@@ -47,19 +47,16 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              About{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                me
               </Text>{" "}
-              creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              With experience in web development and a passion for technology since high school, I opted for a Software Engineering course to enhance my knowledge.
+              Over the years, I have acquired skills in agile methodologies such as Scrum and Kanban, as well as proficiency in languages such as HTML, CSS, JavaScript, React.js, and TypeScript.
+              I also have experience in backend development with Node.js, Python, and frameworks like Django, as well as in databases such as PostgreSQL.
+              I am always seeking improvement and I am driven by the challenge of creating innovative and efficient solutions in programming.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
